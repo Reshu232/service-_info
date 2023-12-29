@@ -1,30 +1,25 @@
-body{
-    background-color: lavender;
-}
-div.table-responsive{
-    background-color:white;
-    
-}
-
-div{
-    background-color:white;
-
-}
-div.container-fluid{
-background-color: #422F5E ;
-}
-
-footer{
-    background-color:#422F5E  ;
-    width: 800px;
-    margin:0 auto;
-    margin-bottom: 30px;
-}
-
 div.card{
+    justify-content: center;
     width: 800px;
         margin: 0 auto;
         float: none; 
-        margin-bottom: 10px; 
+        margin-bottom: 20px; 
         margin-top: 20px;
+}
+.card-header{
+    background-color: #422F5E !important;
+    color: white !important;
+    /* font-weight: 700 !important; */
+    height: 42px;
+    
+}
+
+th{
+    background-color:#9272C0 !important ;
+    color: white;
+}
+
+
+.table{
+  border: 1px  black;
 }
